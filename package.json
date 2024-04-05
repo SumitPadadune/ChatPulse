@@ -4,10 +4,9 @@
   "description": "Chat App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/index.js",
-    "dev": "nodemon backend/index.js",
-    "build":"npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+    "server": "nodemon backend/index.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
